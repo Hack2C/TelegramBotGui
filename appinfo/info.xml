@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>telegrambotgui</id>
+    <name>Telegram Bot Gui</name>
+    <summary>TelegramBotGui soll eine Oberfläche bieten, mit der ein Telegram Bot einfacher bedient werden kann</summary>
+    <description><![CDATA[TelegramBotGui soll eine Oberfläche bieten, mit der ein Telegram Bot einfacher bedient werden kann.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="tomwieczorekcb@gmail.com" >Tom Wieczorek</author>
+    <namespace>TelegramBotGui</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/Hack2C/TelegramBotGui</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Telegram Bot Gui</name>
+            <route>telegrambotgui.page.index</route>
+        </navigation>
+    </navigations>
+</info>

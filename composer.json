@@ -1,0 +1,15 @@
+{
+    "name": "Telegram Bot Gui",
+    "description": "TelegramBotGui soll eine Oberfläche bieten, mit der ein Telegram Bot einfacher bedient werden kann",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Tom Wieczorek"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
